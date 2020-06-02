@@ -1,0 +1,38 @@
+{% extends 'mysite/base.html' %}
+{% load static %}
+{% block content %}
+ <div class="container" style="margin-top: 70px">
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/moe.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Moeliving</h5>
+                    <p class="card-text">This is my startup, whose aim is help Youtube content creators achieve success..</p>
+                    <p class="card-text">
+                        <small class="text-muted">Moeliving Youtube Channel</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/git.jpeg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Github</h5>
+                    <p class="card-text">This is my github, where you can view all my projects</p>
+                    <p class="card-text">
+                        <small class="text-muted">KarlBrian5</small>
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="{% static 'mysite/images/mosh.jpg' %}" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Mosh Hamedani</h5>
+                    <p class="card-text">Become the best coder you can be in 1.Python 2.JavaScript 3.C#</p>
+                    <p class="card-text">
+                        <small class="text-muted">Programming With Mosh</small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
