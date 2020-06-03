@@ -1,10 +1,11 @@
+-i https://pypi.org/simple/
 certifi==2020.4.5.1
 chardet==3.0.4
-Django==2.2
+django==2.2.10
 get==2019.4.13
 gunicorn==20.0.4
 idna==2.9
-Pillow==7.1.2
+pillow==7.1.2
 post==2019.4.13
 public==2019.4.13
 pytz==2020.1
