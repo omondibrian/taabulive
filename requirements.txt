@@ -1,5 +1,5 @@
 -i https://pypi.org/simple/
-certifi==2020.4.5.2
+certifi==2020.6.20
 chardet==3.0.4
 django==2.2.10
 get==2019.4.13
