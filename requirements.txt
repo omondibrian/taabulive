@@ -4,7 +4,7 @@ chardet==3.0.4
 django==2.2.10
 get==2019.4.13
 gunicorn==20.0.4
-idna==2.9
+idna==2.10
 pillow==7.1.2
 post==2019.4.13
 public==2019.4.13
